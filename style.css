@@ -1,0 +1,56 @@
+/* vamos dar vida pra essa loja irmao*/
+
+body {
+    background-color: hsl(60, 6%, 38%);  /*cor de fundo quase preta */
+    color: white; /*cor de texto branca*/
+    font-family: Century, sans-serif; /*cor de fundo*/
+}
+h1 {
+    color: #ff9d00; /*cor de laranja titulo*/
+    text-align: center; /*centraliza titulo*/
+}
+p {
+    color:blanchedalmond;
+    text-align: center;
+}
+
+.card-produto1 {
+    background-color:#ff9d00;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0 ,0, 0, 0.5);
+}
+.card-produto1 img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-produto1 h2{
+    color:antiquewhite;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card-produto1 p{
+    font-size:14px;
+    color:#363634;
+    text-align: left;
+}
+
+.card-produto1 button{
+    font-size: 20px;
+    color: rgb(110, 102, 102);
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+    margin-top:10px;
+
+}
+.card-produto1 button:hover{
+    background-color: rgb(240, 146, 32);
+    color:#363634
+    
+}
