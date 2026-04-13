@@ -1,3 +1,3 @@
 # Estudos
 
-Esse readme irei me aprofundar em Front-end
+Neste projeto irei me aprofundar em Front-end
