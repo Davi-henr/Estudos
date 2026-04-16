@@ -1,16 +1,3 @@
-//Ideia atual será criar a lógica dos botoes de add ao carrinho
-//btn ja criado, falta colocar a lógica
-
-// 1. O JS caça SOMENTE os botões que têm a classe específica de compra
-const botoesComprar = document.querySelectorAll(.btn-comprar);
-
-// 2. Continua igual: para cada botão dessa lista, ele faz a ação
-botoesComprar.forEach(function(botao){
-
-    botao.addEventListener('click', function(){
-        alert('Opa, adicionado ao carrinho');
-    });
-});
 
 
 //ao clicar no botão [add ao carrinho] ele adiciona a uma grid [pequena tabela temporária]

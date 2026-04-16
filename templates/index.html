@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de portaria</title> 
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registro de Visitantes</h1>
+        <p>_________________________________________________________</p>
+        <form action="/" method="post">
+            <label for="nome">Nome do Visitante</label>
+            <input type="text" name="nome" id="nome" placeholder="Ex: João" required>
+
+            <label for="documento">Documento (RG|CPF)</label>
+            <input type="text" name="documento" id="documento">p
+
+            <button type="submit">Liberar Entrada</button>
+        </form>
+    </div>
+    
+</body>
+</html>
